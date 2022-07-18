@@ -12,7 +12,7 @@ const argv = require('yargs')
             describe: 'Show table'
         })
         .option('h', {
-            alias: 'hasta',
+            alias: 'to',
             type: 'number',
             default: 10,
             describe: 'Miltiplication limit'
